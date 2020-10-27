@@ -15,9 +15,9 @@ CFN_BUCKET="$STACK_NAME-cfn-$AWS_ACCOUNT_ID"
 
 # Generate a personal access token with repo and admin:repo_hook
 #    permissions from https://github.com/settings/tokens
-GH_ACCESS_TOKEN=$(cat ~/.github/aws-bootstrap-access-token)
-GH_OWNER=$(cat ~/.github/aws-bootstrap-owner)
-GH_REPO=$(cat ~/.github/aws-bootstrap-repo)
+GH_ACCESS_TOKEN=$(cat ~/.github/token)
+GH_OWNER=$(cat ~/.github/owner)
+GH_REPO=$(cat ~/.github/repo)/aws-bootstrap.git
 GH_BRANCH=master
 
 # Deploys static resources
