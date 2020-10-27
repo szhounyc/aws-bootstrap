@@ -1,8 +1,8 @@
 #!/bin/bash
 
 STACK_NAME=awsbootstrap
-REGION=us-east-1
-CLI_PROFILE=awsbootstrap
+REGION=us-west-2
+CLI_PROFILE=awsadmin
 
 EC2_INSTANCE_TYPE=t2.micro
 DOMAIN=the-good-parts.com
