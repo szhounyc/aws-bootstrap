@@ -1,5 +1,4 @@
 version: 0.2
-
 phases:
   install:
     runtime-versions:
@@ -10,7 +9,6 @@ phases:
       - npm ci
   build:
     commands:
-      # run the build
       - npm run build
 artifacts:
   files:
